@@ -1,0 +1,18 @@
+<Root>
+	<Items>
+		<item id="0" name="种子" image="种子" eatScript="eatSeed" isweapon="false" canmake="false" />
+		<item id="1" name="树枝" image="树枝" eatScript="eatBranch" isweapon="false" canmake="false" />
+		<item id="2" name="苹果" image="苹果" eatScript="eatApple" isweapon="false" canmake="false" />
+		<item id="3" name="石头" image="石头" eatScript="eatRock" isweapon="false" canmake="false" />
+		<item id="4" name="肉块" image="肉块" eatScript="eatMeat" isweapon="false" canmake="false" />
+		<item id="5" name="火把" image="火把" eatScript="eatTorch" isweapon="true" canmake="true" material="1,2" />
+	</Items>
+	<Ills>
+		<item id="1000" name="红眼病" image="红眼病" illbuffScript="redeyeBuff" />
+		<item id="1001" name="湿度" image="湿度" illbuffScript="wetBuff" />
+	</Ills>
+	<ActItems>
+		<item id="0" name="树" obj="树" life="60" isnomaldie="false" isdiedrop="false" carryItem="0,0,1,1,0,2" carryIll="-1" attedtype="SHAKE" />
+		<item id="1" name="兔子" obj="兔子" life="30" isnomaldie="true" isdiedrop="true" carryItem="4" carryIll="-1,-1,-1,1000" attedtype="BACK" />
+	</ActItems>
+</Root>
